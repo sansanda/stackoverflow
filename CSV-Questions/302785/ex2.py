@@ -1,4 +1,4 @@
-#Defining mem as stackoverflow-question-305981 list
+#Defining mem as 305981 list
 mem = [1]
 
 def fibo(n):

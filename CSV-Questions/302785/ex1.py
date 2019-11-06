@@ -13,9 +13,9 @@ with open('ex1.csv', newline='') as f:
     #recorremos las rows
     for row in reader:
         if(str(row[0]).startswith('-')): #Si el primer elemento de la lista es -, entonces es una linea de separación
-            if (len(itemsPerRow)!=0): #tengo datos correspondientes stackoverflow-question-305981 filas entre dos -------------------
+            if (len(itemsPerRow)!=0): #tengo datos correspondientes 305981 filas entre dos -------------------
                 rows.append(itemsPerRow.copy())
-                #vacio para volver stackoverflow-question-305981 tomar los datos correspondientes stackoverflow-question-305981 filas entre dos -------------------
+                #vacio para volver 305981 tomar los datos correspondientes 305981 filas entre dos -------------------
                 itemsPerRow.clear()
         else:
                 for item in row:
